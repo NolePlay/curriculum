@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./img/address-card-regular.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/codigo.js"></script>
+    <script src="https://kit.fontawesome.com/3cbe551640.js" crossorigin="anonymous"></script>
+    <title>Currículum Vitae</title>
+</head>
+<body>
+    <div class="row" id="header">
+        <div class="flex column-1">
+            <i class="far fa-id-card"></i>
+        </div>
+        <div class="flex column-1">
+            <h1>CURRÍCULUM VITAE</h1>
+        </div>
+    </div>
+
+    <div id="navbar">
+        <a href="#header" class="active"><i class="fas fa-arrow-up"></i></a>
+        <a href="#section-1">¿Quien soy?</a>
+        <a href="#section-2">Estudios</a>
+        <a href="#section-3">Experiencia</a>
+    </div>
+
+    <div class="row flex relleno-lateral" id="section-1">
+        <div class="column-2">
+            <img src="./img/foto.jpeg" alt="foto noel">
+        </div> 
+        <div class="relleno-izquierda column-2">
+            <h1>Datos Personales:</h1>
+            <h4>Nombre y Apellidos:</h4>
+            <p> Noel de Tena Arias</p>
+            <h4>Fecha de Nacimiento:</h4>
+            <p> 29 de mayo del 2003</p>
+            <h4>Residencia:</h4>
+            <p>Av. Vilanova, nº 16. L'Hospitalet de Llobregat, 08902, Barcelona</p>
+            <h4>Teléfono:</h4>
+            <p>(+34) 630 21 74 07</p>
+            <h4>Correo eletrónico:</h4>
+            <p>noel.tena.arias@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="flex row relleno-lateral" id="section-4">
+        <div class="column-1">
+            <h3>Cambia el idioma:</h3>
+        </div>
+        <div class="column-1">
+            <select name="language" id="language" onchange="language()">
+                <option value="ES" selected>Español</option>
+                <option value="EN">English</option>
+            </select>
+        </div>
+    </div>
+</body>
+</html>
