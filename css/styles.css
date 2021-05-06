@@ -32,6 +32,10 @@ html {
     padding-right: 5%;
 }
 
+.relleno-arriba {
+    padding-top: 4%;
+}
+
 .relleno-izquierda {
     padding-left: 5%;
 }
@@ -93,10 +97,44 @@ html {
     color: teal;
 }
 
+#section-1 a {
+    font-size: 30px;
+    color: teal;
+    padding-right: 1%;
+}
+
 #section-1 img {
     width: 60%;
     float: right;
     box-shadow: 5px 5px 5px gray;
+}
+
+#section-2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: teal;
+}
+
+#section-2 iframe {
+    color: teal;
+    float: left;
+    width: 100%;
+}
+
+#section-3 {
+    float: left;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#section-3 img{
+    float: right;
+    width: 40%;
+}
+
+#section-3 h1{
+    color: teal;
 }
 
 .column-1 {
@@ -115,7 +153,7 @@ html {
     color: white;
     background-color: #333;
     padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 
 }
 
@@ -128,3 +166,33 @@ html {
     float: right;
     padding-right: 1%;
 }
+
+#section-5 h1{
+    color: teal;
+}
+
+#section-5 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#section-5 img {
+    float: right;
+}
+
+#section-6 {
+    float: left;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#section-6 img{
+    float: right;
+    width: 40%;
+}
+
+#section-6 h1{
+    color: teal;
+}
+
