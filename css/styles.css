@@ -198,7 +198,7 @@ html {
     color: teal;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     
     #header {
         padding: 30vh 10px;
