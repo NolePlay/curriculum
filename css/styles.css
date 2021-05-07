@@ -203,16 +203,17 @@ html {
     #header {
         padding: 30vh 10px;
     }
-    #header i {
-        padding-left: 38%;
-    }
+
     .relleno-columnas {
         padding-right: 0px;
     }
 
     .flex {
         display: block;
-        align-items: center;
+    }
+     
+    #header #icono-header {
+        display: flex;
     }
 
     .relleno-lateral {
@@ -223,13 +224,15 @@ html {
     .column-1 {
         width: 100%;
         float: left;
-        text-align: center;
+    }
+
+    .column-2 img {
+        align-content: center;
     }
 
     .column-2 {
         width: 100%;
         float: left;
-        text-align: center;
     }
 
     #section-1 {
@@ -254,6 +257,7 @@ html {
 
     #section-4 {
         width: 100%;
+        align-content: center;
     }
 
     .relleno-izquierda {
